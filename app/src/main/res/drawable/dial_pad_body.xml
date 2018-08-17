@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/plasticSilver"></solid>
+            <stroke android:color="@color/plasticSilverEdge" android:width="3dp"></stroke>
+            <corners android:radius="3dp"></corners>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:centerX="@fraction/displayCenterX"
+                android:centerY="@fraction/displayCenterY"
+                android:startColor="@color/plasticSilverEdge"
+                android:centerColor="@color/plasticSilverTransparent"
+                android:endColor="@color/plasticSilverTransparent"
+                android:angle="0"></gradient>
+            <corners android:radius="3dp"></corners>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:centerX="@fraction/displayCenterX"
+                android:centerY="@fraction/displayCenterY"
+                android:startColor="@color/plasticSilverEdge"
+                android:centerColor="@color/plasticSilverTransparent"
+                android:endColor="@color/plasticSilverTransparent"
+                android:angle="180"></gradient>
+            <corners android:radius="3dp"></corners>
+        </shape>
+    </item>
+</layer-list>

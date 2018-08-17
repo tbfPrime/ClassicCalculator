@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@color/darkPlasticGreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@drawable/dial_pad_body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@id/keyboard1"
+            android:layout_alignRight="@id/keyboard1"
+            android:layout_alignTop="@id/dialPadInput"
+            android:layout_alignBottom="@id/keyboard1"
+            android:layout_marginLeft="-20dp"
+            android:layout_marginRight="-20dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="-40dp"
+            android:orientation="horizontal"></LinearLayout>
+        <LinearLayout
+            android:background="@drawable/dial_pad_background_border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@id/keyboard1"
+            android:layout_alignRight="@id/keyboard1"
+            android:layout_alignTop="@id/dialPadInput"
+            android:layout_alignBottom="@id/dialPadInput"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="-10dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="-10dp"
+            android:orientation="horizontal"></LinearLayout>
+        <TextView
+            android:id="@+id/dialPadInput"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignStart="@id/keyboard1"
+            android:layout_alignEnd="@id/keyboard1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/dial_pad_background"
+            android:gravity="center_vertical|end"
+            android:textSize="50sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/keyboard1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+            android:layout_below="@+id/dialPadInput"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

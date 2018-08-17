@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/dialPadDisplay"></solid>
+            <!--<corners android:radius="5dp"></corners>-->
+        </shape>
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient
+                android:centerX="@fraction/displayCenterX"
+                android:centerY="@fraction/displayCenterY"
+                android:startColor="@color/dialPadDisplayEdge"
+                android:centerColor="@color/dialPadDisplayTransparent"
+                android:endColor="@color/dialPadDisplayTransparent"
+                android:angle="0" ></gradient>
+            <!--<corners android:radius="5dp"></corners>-->
+        </shape>
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient
+                android:centerX="@fraction/displayCenterX2"
+                android:centerY="@fraction/displayCenterY2"
+                android:startColor="@color/dialPadDisplayEdge"
+                android:centerColor="@color/dialPadDisplayTransparent"
+                android:endColor="@color/dialPadDisplayTransparent"
+                android:angle="90" ></gradient>
+            <!--<corners android:radius="5dp"></corners>-->
+        </shape>
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient
+                android:centerX="@fraction/displayCenterX"
+                android:centerY="@fraction/displayCenterY2"
+                android:startColor="@color/dialPadDisplayEdge"
+                android:centerColor="@color/dialPadDisplayTransparent"
+                android:endColor="@color/dialPadDisplayTransparent"
+                android:angle="180" ></gradient>
+            <!--<corners android:radius="5dp"></corners>-->
+        </shape>
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient
+                android:centerX="@fraction/displayCenterX2"
+                android:centerY="@fraction/displayCenterY2"
+                android:startColor="@color/dialPadDisplayEdge"
+                android:centerColor="@color/dialPadDisplayTransparent"
+                android:endColor="@color/dialPadDisplayTransparent"
+                android:angle="270" ></gradient>
+            <!--<corners android:radius="5dp"></corners>-->
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <stroke android:color="@color/dialPadDisplayEdge" android:width="1dp"></stroke>
+        </shape>
+    </item>
+</layer-list>

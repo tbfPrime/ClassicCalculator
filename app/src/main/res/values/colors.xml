@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dialPadDisplay">#8ee267</color>
+    <color name="dialPadDisplayEdge">#b6fa7d</color>
+    <color name="dialPadDisplayTransparent">#008ee267</color>
+    <color name="dialPadDisplayOFF">#627b5c</color>
+    <color name="dialPadDisplayOFFEdge">#51644c</color>
+    <color name="dialPadDisplayOFFTransparent">#00627b5c</color>
+    <color name="dialPadDisplayBorder">#273024</color>
+    <color name="darkPlasticGreen">#363B35</color>
+    <color name="darkPlasticGreenStroke">#2f332f</color>
+    <color name="plasticSilver">#c3c9cf</color>
+    <color name="plasticSilverEdge">#8e9091</color>
+    <color name="plasticSilverTransparent">#00c3c9cf</color>
+    <color name="plasticSilverBorder">#707070</color>
+    <color name="buttonRed">#5e2a29</color>
+    <color name="buttonRedBorder">#3d1b1b</color>
+    <color name="buttonRedStart">#b33135</color>
+    <color name="buttonRedCenter">#b4343f</color>
+    <color name="buttonRedEnd">#7b1c24</color>
+    <color name="buttonGreyStart">#65738e</color>
+    <color name="buttonGreyCenter">#66748f</color>
+    <color name="buttonGreyEnd">#40495b</color>
+    <color name="buttonRedStroke">#741820</color>
+    <color name="buttonGreyStroke">#3a4354</color>
+    <color name="buttonShadow">#565656</color>
+    <color name="buttonTextColor">#d9d9d9</color>
+</resources>

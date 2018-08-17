@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="buttonCenterX">0.05</fraction>
+    <fraction name="buttonCenterY">0.05</fraction>
+    <fraction name="displayCenterX">0.05</fraction>
+    <fraction name="displayCenterY">0.05</fraction>
+    <fraction name="displayCenterX2">0.2</fraction>
+    <fraction name="displayCenterY2">0.2</fraction>
+    <fraction name="buttonCenterPressedX">0.05</fraction>
+    <fraction name="buttonCenterPressedY">0.05</fraction>
+    <fraction name="buttonStrokeWidth">2</fraction>
+</resources>
